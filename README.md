@@ -24,7 +24,9 @@ The model was trained on mental health-related dialogues, but it may still gener
 The model should not be used as a replacement for professional mental health practitioners. Users should carefully evaluate generated responses in the context of their use case.
 
 # How to Get Started with the Model
-'''from transformers import AutoModelForCausalLM, AutoTokenizer
+'''python
+from transformers import AutoModelForCausalLM, AutoTokenizer
 
 tokenizer = AutoTokenizer.from_pretrained("GuelGaMesh01/gemma-2b-it-finetuned-mental-health-qa") model = AutoModelForCausalLM.from_pretrained("GuelGaMesh01/gemma-2b-it-finetuned-mental-health-qa")
+
 '''
