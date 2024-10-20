@@ -6,6 +6,25 @@ A chatbot trained on gemma2b-it fine-tuned on a dataset containing questions and
 
 This model is a fine-tuned version of gemma-2b-it for mental health counseling conversations. It was fine-tuned on the "Amod/Mental Health Counseling Conversations dataset", which contains dialogues related to mental health counseling. Access the dataset through this link: https://huggingface.co/datasets/Amod/mental_health_counseling_conversations
 
+# Repository Info
+This repository contains two Jupyter notebooks demonstrating how to fine-tune a large language model (LLM) using the Hugging Face Transformers library, followed by a notebook that performs inference with the fine-tuned model. This project is part of the activities for Week 2 of the AI Republic's AI Bootcamp.
+
+# Notebooks
+### 1. Fine-tuned LLM Model (Gemma)
+* Notebook Name: `3_Finetuninng_Gemma_2b_it_MentalHealth.ipynb`
+* Description: This notebook shows you through the procedure of fine-tuning a pre-trained LLM on a custom dataset. It includes:
+  * Loading a pre-trained model and tokenizer
+  * Preparing the dataset for training
+  * Fine-tuning the model
+  * Uploading the model in HuggingFace
+  * Evaluation Metrics
+
+### 2. Inferenced Fine-tuned Model
+* Notebook Name: `4_Inferencing_Finetuned_Model.ipynb`
+* Description: In this notebook, you will use the fine-tuned model to make responses. It includes:
+  * Loading the fine-tuned model and tokenizer
+  * Preparing input data for inference
+  * Running inference and displaying results
 
 # Use Cases
 
