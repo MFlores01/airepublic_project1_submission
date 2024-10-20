@@ -1,6 +1,7 @@
 # AI Republic Project 1 (Fine-Tuned Gemma Model for Mental Health Conversations)
 
-![image]([https://github.com/user-attachments/assets/552efe0b-6012-48d9-9b02-622d56ec0e6a](https://raw.githubusercontent.com/MFlores01/airepublic_project1_submission/refs/heads/main/f39adfdb-f65e-403c-a690-6aeb4bbf7582.webp))
+![Image Description](https://raw.githubusercontent.com/MFlores01/airepublic_project1_submission/refs/heads/main/f39adfdb-f65e-403c-a690-6aeb4bbf7582.webp)
+
 
 A chatbot trained on gemma2b-it fine-tuned on a dataset containing questions and answers regarding mental health conversations.
 
