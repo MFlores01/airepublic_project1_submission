@@ -1,4 +1,4 @@
-# AI Republic Project 1 (HuggingFace Gemma Model)
+# AI Republic Project 1 (Fine-Tuned Gemma Model for Mental Health Conversations)
 
 A chatbot trained on gemma2b-it fine-tuned on a dataset containing questions and answers regarding mental health conversations.
 
