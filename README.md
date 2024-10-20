@@ -12,8 +12,6 @@ This model is a fine-tuned version of gemma-2b-it for mental health counseling c
 * Fine-Tuned Model: [here](https://huggingface.co/GuelGaMesh01/gemma-2b-it-finetuned-mental-health-qa)
 * Base Model: [here](https://huggingface.co/google/gemma-2-2b-it)
 
-# Repository Info
-This repository contains two Jupyter notebooks demonstrating how to fine-tune a large language model (LLM) using the Hugging Face Transformers library, followed by a notebook that performs inference with the fine-tuned model. This project is part of the activities for Week 2 of the AI Republic's AI Bootcamp.
 
 # Notebooks
 ### 1. Fine-tuned LLM Model (Gemma)
