@@ -59,4 +59,5 @@ The model was evaluated using a split from the training data, specifically a 10%
 The following metrics were used during the training and evaluation process:
 
 Training Loss: The training loss was tracked during training to monitor how well the model was learning from the data. It decreased throughout the epochs.
+
 Semantic Similarity: Semantic Similarity was used as a metric to evaluate the model's ability to generate coherent and fluent text responses due to the dataset's contextual behavior. The model was evaluated on a subset of the test data, and both non-finetuned and finetuned perplexities were compared.
