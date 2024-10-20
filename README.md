@@ -2,12 +2,12 @@
 
 A chatbot trained on gemma2b-it fine-tuned on a dataset containing questions and answers regarding mental health conversations.
 
-## Model Summary
+# Model Summary
 
 This model is a fine-tuned version of gemma-2b-it for mental health counseling conversations. It was fine-tuned on the "Amod/Mental Health Counseling Conversations dataset", which contains dialogues related to mental health counseling. Access the dataset through this link: https://huggingface.co/datasets/Amod/mental_health_counseling_conversations
 
 
-## Use Cases
+# Use Cases
 
 ### Direct Use
 This model is fine-tuned for generating responses related to mental health counseling tasks. It can be used for providing suggestions, conversation starters, or follow-ups in mental health scenarios.
@@ -18,13 +18,13 @@ This model can be adapted for use in more specific counseling-related tasks, or 
 ## Out-of-Scope Use
 The model is not intended to replace professional counseling. It should not be used for real-time crisis management or any situation requiring direct human intervention. Use in highly critical or urgent care situations is out of scope.
 
-## Bias, Risks, and Limitations
+# Bias, Risks, and Limitations
 The model was trained on mental health-related dialogues, but it may still generate biased or inappropriate responses. Users should exercise caution when interpreting or acting on the model's outputs, particularly in sensitive scenarios.
 
-## Recommendations
+# Recommendations
 The model should not be used as a replacement for professional mental health practitioners. Users should carefully evaluate generated responses in the context of their use case.
 
-## How to Get Started with the Model
+# How to Get Started with the Model
 
 ```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -38,7 +38,7 @@ model = AutoModelForCausalLM.from_pretrained("GuelGaMesh01/gemma-2b-it-finetuned
 inputs = tokenizer("How can I manage anxiety better?", return_tensors="pt") outputs = model.generate(**inputs, max_length=200) response = tokenizer.decode(outputs[0], skip_special_tokens=True) print(response)
 ```
 
-## Training Details
+# Training Details
 ## Training Data
 The model was trained on the Amod/Mental Health Counseling Conversations dataset, which consists of mental health dialogues focused on counseling situations.
 
@@ -51,7 +51,7 @@ Batch Size: 1 Gradient Accumulation Steps: 4 Learning Rate: 2e-4 Epochs: 3 Max S
 Training Time: Approximately 30 minutes for 150 steps with fp16 mixed precision.
 Checkpoint Size: The model checkpoints are approximately 15 GB.
 
-## Evaluation
+# Evaluation
 ## Testing Data
 The model was evaluated using a split from the training data, specifically a 10% test split of the original training dataset.
 
