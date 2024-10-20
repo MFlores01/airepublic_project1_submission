@@ -60,4 +60,6 @@ The following metrics were used during the training and evaluation process:
 
 Training Loss: The training loss was tracked during training to monitor how well the model was learning from the data. It decreased throughout the epochs.
 
-Semantic Similarity: Semantic Similarity was used as a metric to evaluate the model's ability to generate coherent and fluent text responses due to the dataset's contextual behavior. The model was evaluated on a subset of the test data, and both non-finetuned and finetuned perplexities were compared.
+Semantic Similarity: Semantic similarity was employed as the primary metric to assess the model’s ability to generate contextually relevant and meaningful responses. Since the dataset involves conversational context, particularly in the sensitive area of mental health counseling, it was crucial to evaluate how well the model understands and retains the intent and meaning behind the input rather than merely focusing on fluency or token-level prediction. 
+
+Perplexity: Perplexity was used as a metric to evaluate the model's ability to generate coherent and fluent text responses. The model was evaluated on a subset of the test data, and both non-finetuned and finetuned perplexities were compared.
