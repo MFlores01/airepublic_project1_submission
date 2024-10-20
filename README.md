@@ -45,10 +45,10 @@ The model was trained on the Amod/Mental Health Counseling Conversations dataset
 ### Training Procedure
 The model was fine-tuned using LoRA (Low-Rank Adaptation) with the following hyperparameters:
 
-Batch Size: 1 Gradient Accumulation Steps: 4 Learning Rate: 2e-4 Epochs: 3 Max Sequence Length: 2500 tokens Optimizer: paged_adamw_8bit
+Batch Size: 1 Gradient Accumulation Steps: 4 Learning Rate: 2e-4 Epochs: 3 Max Sequence Length: 2000 tokens Optimizer: paged_adamw_8bit
 
 ### Training Hyperparameters
-Training Time: Approximately 30 minutes for 150 steps with fp16 mixed precision.
+Training Time: Approximately 30 minutes for 100 steps.
 Checkpoint Size: The model checkpoints are approximately 15 GB.
 
 # Evaluation
@@ -59,4 +59,4 @@ The model was evaluated using a split from the training data, specifically a 10%
 The following metrics were used during the training and evaluation process:
 
 Training Loss: The training loss was tracked during training to monitor how well the model was learning from the data. It decreased throughout the epochs.
-Perplexity: Perplexity was used as a metric to evaluate the model's ability to generate coherent and fluent text responses. The model was evaluated on a subset of the test data, and both non-finetuned and finetuned perplexities were compared.
+Semantic Similarity: Semantic Similarity was used as a metric to evaluate the model's ability to generate coherent and fluent text responses due to the dataset's contextual behavior. The model was evaluated on a subset of the test data, and both non-finetuned and finetuned perplexities were compared.
