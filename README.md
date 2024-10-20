@@ -1,10 +1,11 @@
-# airepublic_project1_submission
+# AI Republic Project 1 (HuggingFace Gemma Model)
 
 A chatbot trained on gemma2b-it fine-tuned on a dataset containing questions and answers regarding mental health conversations.
 
 ## Model Summary
 
-This model is a fine-tuned version of gemma-2b-it for mental health counseling conversations. It was fine-tuned on the Amod/Mental Health Counseling Conversations dataset, which contains dialogues related to mental health counseling.
+This model is a fine-tuned version of gemma-2b-it for mental health counseling conversations. It was fine-tuned on the "Amod/Mental Health Counseling Conversations dataset", which contains dialogues related to mental health counseling. Access the dataset through this link: https://huggingface.co/datasets/Amod/mental_health_counseling_conversations
+
 
 ## Use Cases
 
