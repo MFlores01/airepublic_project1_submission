@@ -27,3 +27,4 @@ The model should not be used as a replacement for professional mental health pra
 '''from transformers import AutoModelForCausalLM, AutoTokenizer
 
 tokenizer = AutoTokenizer.from_pretrained("GuelGaMesh01/gemma-2b-it-finetuned-mental-health-qa") model = AutoModelForCausalLM.from_pretrained("GuelGaMesh01/gemma-2b-it-finetuned-mental-health-qa")
+'''
